@@ -1,0 +1,6 @@
+﻿  main.cpp
+  Note: including lib: glut32.lib
+C:\Users\zy\Desktop\CAD_final\inc\Examples.h(149,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\zy\Desktop\CAD_final\inc\Examples.h(288,20): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\zy\Desktop\CAD_final\src\main.cpp(239): warning C4715: “getPrimitiveType”: 不是所有的控件路径都返回值
+  CAD_final.vcxproj -> C:\Users\zy\Desktop\CAD_final\Debug\CAD_final.exe
