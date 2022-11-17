@@ -1,8 +1,9 @@
 基于半边数据结构的欧拉操作和扫掠的实现
 
-![image-20221117213704380](C:\Users\zy\Desktop\CAD_final\jpg\image-20221117213704380.png)![image-20221117213752486](C:\Users\zy\Desktop\CAD_final\jpg\image-20221117213752486.png)
+![image-20221117213704380](https://github.com/wtuEcho/CAD_final/blob/main/md_photo/image-20221117213704380.png)
+![image-20221117213752486](https://github.com/wtuEcho/CAD_final/blob/main/md_photo/image-20221117213752486.png)
 
-![image-20221117214607891](C:\Users\zy\Desktop\CAD_final\md_photo\image-20221117214607891.png)
+![image-20221117214607891](https://github.com/wtuEcho/CAD_final/blob/main/md_photo/image-20221117214607891.png)
 
 ## 1.1  实验环境及代码结构
 
@@ -42,33 +43,33 @@ l  VS调试式：修改宏定义中的DRAW_EXAMPLE为1、2或3，再运行程序
 
 系统内部对面自动进行了编号，顶点及面的编号如下图所示：
 
-![image-20221117214717958](C:\Users\zy\Desktop\CAD_final\md_photo\image-20221117214717958.png)
+![image-20221117214717958](https://github.com/wtuEcho/CAD_final/blob/main/md_photo/image-20221117214717958.png)
 
 构建该体的具体函数调用过程如下：
 
 \1.   构建长方体外轮廓的第一个方形（黑箭头为f[0]环的方向）
 
- ![image-20221117214732590](C:\Users\zy\Desktop\CAD_final\md_photo\image-20221117214732590.png)
+ ![image-20221117214732590](https://github.com/wtuEcho/CAD_final/blob/main/md_photo/image-20221117214732590.png)
 
 \2.   构建长方体外轮廓的第二个方形
 
- ![image-20221117214742373](C:\Users\zy\Desktop\CAD_final\md_photo\image-20221117214742373.png)
+ ![image-20221117214742373](https://github.com/wtuEcho/CAD_final/blob/main/md_photo/image-20221117214742373.png)
 
 \3.   构建长方体全部外轮廓
 
- ![image-20221117214755673](C:\Users\zy\Desktop\CAD_final\md_photo\image-20221117214755673.png)
+ ![image-20221117214755673](https://github.com/wtuEcho/CAD_final/blob/main/md_photo/image-20221117214755673.png)
 
 \4.   构建内轮廓的第一个环
 
- ![image-20221117214805194](C:\Users\zy\Desktop\CAD_final\md_photo\image-20221117214805194.png)
+ ![image-20221117214805194](https://github.com/wtuEcho/CAD_final/blob/main/md_photo/image-20221117214805194.png)
 
-![image-20221117214814431](C:\Users\zy\Desktop\CAD_final\md_photo\image-20221117214814431.png)
+![image-20221117214814431](https://github.com/wtuEcho/CAD_final/blob/main/md_photo/image-20221117214814431.png)
 
 \5.   向内构造内轮廓
 
- ![image-20221117214823778](C:\Users\zy\Desktop\CAD_final\md_photo\image-20221117214823778.png)
+ ![image-20221117214823778](https://github.com/wtuEcho/CAD_final/blob/main/md_photo/image-20221117214823778.png)
 
 \6.   构造四个内面及环，得到完全体
 
- ![image-20221117214831985](C:\Users\zy\Desktop\CAD_final\md_photo\image-20221117214831985.png)
+ ![image-20221117214831985](https://github.com/wtuEcho/CAD_final/blob/main/md_photo/image-20221117214831985.png)
 
